@@ -1,0 +1,45 @@
+
+html { font-family: Arial, Hevetica, sans-serif;}
+
+
+body {
+    display: flex;
+	flex-direction: column;
+	justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+figure {background-color: whitesmoke;
+    border: 2px solid black;
+    width: 50%;
+    box-shadow: black 5px 5p 5px;
+    border-collapse: collapse;
+padding: 15px;}
+
+figcaption {
+    display: block;
+    font-weight: bold;
+    text-align: center;
+    font-size: 120%;
+    padding-bottom: .25em;
+} 
+
+table, th, td {
+    padding: 15px;
+    border: 2px solid black;
+    border-collapse: collapse;
+  }
+
+  #AFC, #Head {
+     
+      padding: 10px;
+    background-color: #8b0000;
+color: white;
+text-shadow: 2px 2px 8px black;}
+
+.Team, th, figcaption {font-weight: bolder;}
+
+#AFC {font-size: 30px;
+text-align: center;
+background-color: #8b0000;}
